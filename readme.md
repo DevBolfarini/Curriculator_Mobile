@@ -2,19 +2,18 @@
 
 O Curriculator Agent é um assistente de carreira inteligente e conversacional (Chatbot) construído com Python, Streamlit e a API do Google Gemini (usando a nova SDK google-genai).
 
-Ele atua como um Consultor de Carreira Sênior, conversando de forma interativa com o usuário para entender seu perfil, analisar descrições de vagas e redigir textos persuasivos e altamente personalizados para candidaturas (como o campo "Apresente-se" da Gupy, e-mails de contato direto, ou resumos profissionais).
+Ele atua como uma Consultora de Carreira Sênior (Alia IA), conversando de forma interativa com o usuário para analisar descrições de vagas e adaptar o seu currículo original (do LinkedIn ou em PDF) para que fique muito mais alinhado com a vaga de interesse, mantendo rigorosamente a mesma formatação e estrutura do currículo original.
 
 ✨ O que a aplicação se propõe a fazer?
 
-Ao contrário de geradores estáticos de currículo, o Curriculator Agent utiliza o conceito de Agente de IA com Memória. Suas principais propostas de valor são:
+O Curriculator Agent ajuda na otimização estratégica de currículos com as seguintes propostas de valor:
 
-Interação Natural: Você conversa com a "Alia IA" (persona do agente) como se estivesse falando com um headhunter de verdade.
-
-Análise de Vagas Contextual: Você pode colar o texto de uma vaga no chat, e a IA identificará as palavras-chave e cruzará com a sua experiência.
-
-Refinamento Ativo: Se a IA sentir falta de alguma informação crucial que a vaga exige, ela fará perguntas diretas a você antes de redigir o texto final.
-
-Portabilidade e Segurança: A aplicação é stateless (sem estado permanente) e não utiliza arquivos .env ou bancos de dados locais. A chave da API é inserida diretamente na interface pelo usuário, existindo apenas na memória temporária da sessão.
+1. **Leitura Automatizada de Currículos:** Você faz o upload do seu currículo em PDF (exportado do LinkedIn ou gerado localmente) ou cola o texto dele diretamente no painel.
+2. **Análise de Vagas Contextual:** Você cola a descrição da vaga desejada diretamente no chat.
+3. **Refinamento Ativo:** Se a IA sentir falta de alguma informação crucial que a vaga exige e que não está no seu currículo, ela fará perguntas estratégicas a você antes de gerar o currículo adaptado.
+4. **Currículo Otimizado para ATS:** A IA reescreve seu resumo profissional, habilidades e realizações para incluir palavras-chave estratégicas da vaga, mas preservando o estilo de escrita e o layout original.
+5. **Cópia em 1 Clique:** O currículo final adaptado é apresentado dentro de um bloco de código Markdown, permitindo que você o copie com formatação completa com apenas um clique.
+6. **Portabilidade e Segurança:** Sem bancos de dados ou arquivos `.env`. Sua chave de API fica armazenada apenas na memória temporária da sessão ou configurada de forma segura nos Secrets do Streamlit Cloud.
 
 🛠️ Tecnologias Utilizadas
 
