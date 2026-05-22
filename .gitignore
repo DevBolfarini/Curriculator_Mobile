@@ -1,0 +1,22 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Segredos locais do Streamlit (nunca subir para o Git)
+.streamlit/secrets.toml
+
+# IDEs e editores de texto
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
